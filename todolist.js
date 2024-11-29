@@ -22,7 +22,7 @@ class Item {
         botonEditar.innerHTML = '<i class="fas fa-lock"></i>';
 
         const botonRemover = document.createElement('button');
-        botonRemover.classList.add('boton-remover');
+        botonRemover.classList.add('boton-borrar');
         botonRemover.innerHTML = '<i class="fas fa-trash"></i>';
 
         itemDiv.appendChild(inputItem);
